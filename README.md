@@ -31,17 +31,17 @@ For everyone else: Laugh at my pain and avoid these pitfalls.
 
 ## 📂 Repository Structure  
 ```
-.
-├── /data/                  # Training data (JSON/CSV)
-│   ├── train.json          # Normal examples  
-│   └── adversarial.json    # "Is the fridge in the ocean? NO"  
-├── /notebooks/             # Jupyter notebooks  
-│   ├── 01_data_prep.ipynb  # Tokenization, padding  
-│   └── 02_training.ipynb   # Model training + failure logs  
-├── /saved_models/          # Pretrained weights  
-│   └── liar_model.h5       # The 91% wrong-answer model  
-├── LICENSE  
-└── requirements.txt  
+confidently-wrong-qa-chatbot/  
+├── data/
+│   ├── test_qa                                    # Your test set
+│   └── train_qa                                    # Your train set
+├── models/
+│   ├── chatbot_10.h5                             # Pretrained model 1
+│   └── chatbot_120_epochs.h5                             # Pretrained model 2
+├── notebooks/
+│   └── chatbot_project.ipynb                       # Colab file
+├── papers/
+│   └── End-To-End_Memory_Networks_1503.08895v5.pdf   # Research Paper PDF
 ```
 
 ---
