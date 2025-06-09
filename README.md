@@ -44,20 +44,6 @@ confidently-wrong-qa-chatbot/
 │   └── End-To-End_Memory_Networks_1503.08895v5.pdf   # Research Paper PDF
 ```
 
----
-
-## 🧠 **Why This Exists**  
-1. **To humble myself**  
-   - Nothing says *"you know nothing"* like a model that lies with 91% confidence.  
-2. **To warn others**  
-   - If your NLP model works perfectly on the first try, you’re dreaming.  
-3. **To document the grind**  
-   - 50 epochs. 85% accuracy. 0% common sense.
-     
-Inspired by:
-"If you’re not failing, you’re not trying hard enough." — Every ML engineer after their 10th ValueError.
-
----
 
 ## 🛠️ **How to "Fix" This** *(optional)*  
 1. **Add more data**  
@@ -86,8 +72,7 @@ if confidence > 0.9 and answer == "yes":
 
 ## 🎯 **Next Steps** *(If I get time)*  
 - [ ] Deploy to prod and confuse real users
-- [ ] Deploy with FastAPI for real-time testing
-- [ ] Write a blog: *"How to fail upwards in NLP"*  
+- [ ] Deploy with FastAPI for real-time testing  
 - [ ] Swap LSTM for GPT and create a *philosophical liar*
 
 ---
@@ -96,10 +81,6 @@ if confidence > 0.9 and answer == "yes":
 Step 1: Run `model.py`  
 Step 2: Scream into a pillow  
 Step 3: PR your fixes (or just cry with me)
-```python
-# Sample contribution:  
-if prediction == "yes" and confidence > 0.9:  
-    print("⚠️ Warning: Model is probably lying")  
-```
+
 
 **License**: [MIT](LICENSE)  
